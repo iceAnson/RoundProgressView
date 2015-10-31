@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RoundProgressViewSample.iml" filepath="$PROJECT_DIR$/RoundProgressViewSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roundprogressview/roundprogressview.iml" filepath="$PROJECT_DIR$/roundprogressview/roundprogressview.iml" />
+    </modules>
+  </component>
+</project>
