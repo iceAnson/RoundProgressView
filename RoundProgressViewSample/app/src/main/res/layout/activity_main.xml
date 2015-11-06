@@ -5,7 +5,7 @@
     android:orientation="vertical"
     >
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -18,7 +18,14 @@
             android:layout_height="100dip"
             android:layout_margin="40dip"
             />
+        <com.meetyou.roundprogressview.ArcTextView
+            android:id="@+id/arcTextView"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_margin="40dip"
 
-    </LinearLayout>
+            />
+
+    </RelativeLayout>
 
 </ScrollView>

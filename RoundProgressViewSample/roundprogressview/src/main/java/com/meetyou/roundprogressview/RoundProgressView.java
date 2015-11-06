@@ -7,6 +7,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.graphics.RadialGradient;
 import android.graphics.Rect;
 import android.graphics.RectF;
@@ -179,6 +180,7 @@ public class RoundProgressView extends View {
         super.onDraw(canvas);
         //画内外圆
         drawCircle(canvas);
+
     }
 
     private void drawCircle(Canvas canvas){

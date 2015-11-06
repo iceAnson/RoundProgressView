@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.meetyou.roundprogressview.ArcTextView;
 import com.meetyou.roundprogressview.RoundProgressConfig;
 import com.meetyou.roundprogressview.RoundProgressView;
 
@@ -20,9 +21,15 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initTextView();
         initProgressView();
     }
 
+    private ArcTextView arcTextView;
+    private void initTextView(){
+        arcTextView = (ArcTextView)findViewById(R.id.arcTextView);
+        arcTextView.setText("Top 1",18,Helper.dip2px(getApplicationContext(),50),R.color.xiyou_blue);
+    }
     private void initProgressView(){
 
         roundProgressView = (RoundProgressView)findViewById(R.id.roundProgressView);
