@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.meetyou.roundprogressview.ArcTextView;
+import com.meetyou.roundprogressview.RotatoAnimationView;
 import com.meetyou.roundprogressview.RoundProgressConfig;
 import com.meetyou.roundprogressview.RoundProgressView;
 
@@ -16,6 +17,7 @@ public class MainActivity extends Activity {
 
     private static final String TAG ="MainActivity" ;
     private RoundProgressView roundProgressView;
+    private RotatoAnimationView mRotatoAnimationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,12 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         initTextView();
         initProgressView();
+        initRotateView();
+    }
+
+    private void initRotateView(){
+        mRotatoAnimationView = (RotatoAnimationView)findViewById(R.id.rotatoView);
+        mRotatoAnimationView .start();
     }
 
     private ArcTextView arcTextView;

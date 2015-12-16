@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RotatoAnimationView">
+        <attr name="icon" format="reference"/>
+        <attr name="oneshot" format="boolean"/>
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+</resources>
